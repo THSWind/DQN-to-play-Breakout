@@ -63,4 +63,8 @@ You can change the model in `agent_dqn.py`
 ![](https://github.com/Checkmate986212/DQN-to-play-Breakout/blob/master/image_result/learningrate.png)
 
 ### Test of DQN
-![](https://github.com/Checkmate986212/DQN-to-play-Breakout/blob/master/image_result/test.png)
+<div align=center><img src="https://github.com/Checkmate986212/DQN-to-play-Breakout/blob/master/image_result/test.png" /></div>
+
+The best performance of the test: reward = 337
+
+<div align=center><img src="https://github.com/Checkmate986212/DQN-to-play-Breakout/blob/master/image_result/result.gif" /></div>
