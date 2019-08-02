@@ -3,7 +3,7 @@ A tensorflow implementation of Deep Q Network (DQN), Double Deep Q Network (DDQN
 
 <div align=center><img src="https://github.com/Checkmate986212/DQN-to-play-Breakout/blob/master/image_result/result.gif" /></div>
 
-## Requirment
+## Requirments
 
 * python3
 * tensorflow
@@ -50,3 +50,8 @@ You can change the model in `agent_dqn.py`
     self.q_eval = self.build_net_alex(self.s, 'eval_net') # online Q
     self.q_target = self.build_net_alex(self.s_, 'target_net') # target Q
 ```
+
+## Results
+
+`Different model`
+![](https://github.com/Checkmate986212/DQN-to-play-Breakout/blob/master/image_result/models.png)
