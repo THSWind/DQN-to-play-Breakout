@@ -23,3 +23,30 @@ DuelingDQN
 
 `python main.py --train_dqn --dueling_dqn=1`
 
+
+## Test
+DQN
+
+`python main.py --test_dqn`
+    
+DDQN
+
+`python main.py --test_dqn --double_dqn=1`
+
+DuelingDQN
+
+`python main.py --test_dqn --dueling_dqn=1`
+
+## Additional notes
+You can change the model in `agent_dqn.py`
+
+```python
+    self.q_eval = self.build_net(self.s, 'eval_net') # online Q
+    self.q_target = self.build_net(self.s_, 'target_net') # target Q
+
+    self.q_eval = self.build_net_resnet(self.s, 'eval_net') # online Q
+    self.q_target = self.build_net_resnet(self.s_, 'target_net') # target Q
+
+    self.q_eval = self.build_net_alex(self.s, 'eval_net') # online Q
+    self.q_target = self.build_net_alex(self.s_, 'target_net') # target Q
+```
