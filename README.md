@@ -11,7 +11,7 @@ A tensorflow implementation of Deep Q Network (DQN), Double Deep Q Network (DDQN
 * opencv-python
 
 ## Train
-DQN
+### DQN
 
 `python main.py --train_dqn`
     
@@ -25,15 +25,15 @@ DuelingDQN
 
 
 ## Test
-DQN
+### DQN
 
 `python main.py --test_dqn`
     
-DDQN
+### DDQN
 
 `python main.py --test_dqn --double_dqn=1`
 
-DuelingDQN
+### DuelingDQN
 
 `python main.py --test_dqn --dueling_dqn=1`
 
@@ -53,5 +53,5 @@ You can change the model in `agent_dqn.py`
 
 ## Results
 
-`Different model`
+### Different model
 ![](https://github.com/Checkmate986212/DQN-to-play-Breakout/blob/master/image_result/models.png)
