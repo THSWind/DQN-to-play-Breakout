@@ -15,11 +15,11 @@ A tensorflow implementation of Deep Q Network (DQN), Double Deep Q Network (DDQN
 
 `python main.py --train_dqn`
     
-DDQN
+### DDQN
 
 `python main.py --train_dqn --double_dqn=1`
 
-DuelingDQN
+### DuelingDQN
 
 `python main.py --train_dqn --dueling_dqn=1`
 
@@ -55,3 +55,12 @@ You can change the model in `agent_dqn.py`
 
 ### Different model
 ![](https://github.com/Checkmate986212/DQN-to-play-Breakout/blob/master/image_result/models.png)
+
+### Different method
+![](https://github.com/Checkmate986212/DQN-to-play-Breakout/blob/master/image_result/methods.png)
+
+### Different learning rate
+![](https://github.com/Checkmate986212/DQN-to-play-Breakout/blob/master/image_result/learningrate.png)
+
+### Test of DQN
+![](https://github.com/Checkmate986212/DQN-to-play-Breakout/blob/master/image_result/test.png)
