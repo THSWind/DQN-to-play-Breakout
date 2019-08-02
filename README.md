@@ -3,16 +3,16 @@ A tensorflow implementation of Deep Q Network (DQN), Double Deep Q Network (DDQN
 
 <div align=center><img src="https://github.com/Checkmate986212/DQN-to-play-Breakout/blob/master/image_result/result.gif" /></div>
 
-##Requirment
+## Requirment
 
 * python3
 * tensorflow
 * gym
 * opencv-python
 
-##Train
+## Train
 DQN
-    python main.py --train_dqn
+`python main.py --train_dqn`
     
 DDQN
     python main.py --train_dqn --double_dqn=1
