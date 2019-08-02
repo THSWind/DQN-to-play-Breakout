@@ -12,10 +12,14 @@ A tensorflow implementation of Deep Q Network (DQN), Double Deep Q Network (DDQN
 
 ## Train
 DQN
+
 `python main.py --train_dqn`
     
 DDQN
-    python main.py --train_dqn --double_dqn=1
+
+`python main.py --train_dqn --double_dqn=1`
+
 DuelingDQN
-    python main.py --train_dqn --dueling_dqn=1
+
+`python main.py --train_dqn --dueling_dqn=1`
 
